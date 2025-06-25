@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="repository.easy" name="Easy Repository" version="0.1.3" provider-name="JiRo">
 	<extension point="xbmc.addon.repository">
-		<content>addons</content>
-		<url>https://github.com/jirkoun/repository.easy</url>
+        <dir>
+            <info compressed="false">https://jirkoun.github.io/repository/addons.xml</info>
+            <!-- <checksum>https://jirkoun.github.io/repository/addons.xml.md5</checksum> -->
+            <datadir zip="true">https://jirkoun.github.io/repository</datadir>
+        </dir>
 	</extension>
     <extension point="xbmc.addon.metadata">
 		<summary lang="en_GB">Repositoy Easy</summary>
@@ -14,14 +17,4 @@
 - Initial and test (my 1st) version of Kodi repository
 		</news>
     </extension>
-
-    <addon id="plugin.image.kindgirls" version="1.0.0" name="Kindgirls" provider-name="JiRo">
-		<platform>all</platform>
-		<summary lang="en_GB">View photos and videos from http://www.kindgirls.com</summary>
-		<description lang="en_GB">Kindgirls are Nude girls in erotic photos and videos</description>
-		<disclaimer lang="en_GB">This is an experimental mod and may not match the original addon from the original author by its version numbering. You use this addon only at your own risk.</disclaimer>
-		<language>en_GB</language>
-        <repository>repository.easy</repository>
-        <url>https://github.com/jirkoun/plugin.image.kindgirls</url>
-    </addon>
 </addon>
