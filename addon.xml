@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.easy" name="Repository Easy" version="0.1.2" provider-name="JiRo">
+<addon id="repository.easy" name="Easy Repository" version="0.1.3" provider-name="JiRo">
 	<extension point="xbmc.addon.repository">
-		<platform>all</platform>
 		<content>addons</content>
+		<url>https://github.com/jirkoun/repository.easy</url>
+	</extension>
+    <extension point="xbmc.addon.metadata">
 		<summary lang="en_GB">Repositoy Easy</summary>
 		<description lang="en_GB">Repository containing add-ons from the Easy Tools category</description>
 		<disclaimer lang="en_GB">This is an experimental. You use this addon only at your own risk.</disclaimer>
-		<url>https://github.com/jirkoun/repository.easy</url>
+		<platform>all</platform>
 		<language>en_GB</language>
 		<news>v0.1.0 (2025-06-25)
 - Initial and test (my 1st) version of Kodi repository
 		</news>
-	</extension>
+    </extension>
 
     <addon id="plugin.image.kindgirls" version="1.0.0" name="Kindgirls" provider-name="JiRo">
 		<platform>all</platform>
