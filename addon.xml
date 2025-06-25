@@ -7,7 +7,10 @@
 		<description lang="en_GB">Repository containing add-ons from the Easy Tools category</description>
 		<disclaimer lang="en_GB">This is an experimental. You use this addon only at your own risk.</disclaimer>
 		<url>https://github.com/jirkoun/repository.easy</url>
-		<language>cs</language> <!-- Jazyk repozitáře -->
+		<language>cs</language>
+		<news>v0.1.0 (2025-06-25)
+- Initial and test (my 1st) version of Kodi repository
+		</news>
 	</extension>
 
 	<addon id="plugin.image.kindgirls" name="Kindgirls" version="1.0.0" provider-name="JiRo, DaM, credit Lunatixz">
