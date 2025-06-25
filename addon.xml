@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.easy" name="Easy Repository" version="0.1.3" provider-name="JiRo">
+<addon id="repository.easy" name="Easy Repository" version="0.1.4" provider-name="JiRo">
 	<extension point="xbmc.addon.repository">
         <dir>
             <info compressed="false">https://jirkoun.github.io/repository/addons.xml</info>
