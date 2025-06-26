@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="repository.easy" name="Easy Repository" version="0.1.4" provider-name="JiRo">
 	<extension point="xbmc.addon.repository">
-        <dir>
-            <info compressed="false">https://jirkoun.github.io/repository/addons.xml</info>
-            <!-- <checksum>https://jirkoun.github.io/repository/addons.xml.md5</checksum> -->
-            <datadir zip="true">https://jirkoun.github.io/repository</datadir>
-        </dir>
+		<dir>
+			<info compressed="false">https://jirkoun.github.io/20/repository/addons.xml</info>
+			<!-- <checksum>jirkoun.github.io/20/repository/addons.xml.md5</checksum> -->
+			<datadir zip="true">jirkoun.github.io/20/repository/</datadir>
+		</dir>
 	</extension>
     <extension point="xbmc.addon.metadata">
 		<summary lang="en_GB">Repositoy Easy</summary>
