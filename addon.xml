@@ -2,9 +2,9 @@
 <addon id="repository.easy" name="Easy Repository" version="0.1.4" provider-name="JiRo">
 	<extension point="xbmc.addon.repository">
 		<dir>
-			<info compressed="false">https://jirkoun.github.io/20/repository/addons.xml</info>
-			<!-- <checksum>jirkoun.github.io/20/repository/addons.xml.md5</checksum> -->
-			<datadir zip="true">jirkoun.github.io/20/repository/</datadir>
+			<info compressed="false">https://jirkoun.github.io/repository/20/addons.xml</info>
+			<!-- <checksum>jirkoun.github.io/repository/20/addons.xml.md5</checksum> -->
+			<datadir zip="true">jirkoun.github.io/repository/20/</datadir>
 		</dir>
 	</extension>
     <extension point="xbmc.addon.metadata">
@@ -13,7 +13,7 @@
 		<disclaimer lang="en_GB">This is an experimental. You use this addon only at your own risk.</disclaimer>
 		<platform>all</platform>
 		<language>en_GB</language>
-		<news>v0.1.0 (2025-06-25)
+		<news>v0.1.x (2025-06-25)
 - Initial and test (my 1st) version of Kodi repository
 		</news>
     </extension>
